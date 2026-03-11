@@ -1,3 +1,5 @@
 
 Parte_cassandra/*.sql
 Parte_cassandra/*.env
+Parte_cassandra/data/*.csv
+Parte_cassandra/cassandra_cluster/tmp
