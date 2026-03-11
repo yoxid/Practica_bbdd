@@ -19,6 +19,7 @@ services:
       - "9042:9042"
     volumes:
       - ./tmp/cassandra1:/var/lib/cassandra
+      - ../data:/data
     environment: &cassandra_env
       CASSANDRA_SEEDS: "cassandra1,cassandra2"
       CASSANDRA_CLUSTER_NAME: "videogame_cluster"
